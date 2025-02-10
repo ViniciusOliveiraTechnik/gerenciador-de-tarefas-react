@@ -14,7 +14,7 @@ function Tasks(props) {
 
   return (
     <ul
-      className={`space-y-4 p-6 bg-slate-200 rounded-md shadow ${
+      className={`space-y-4 p-6 bg-slate-200 rounded-md shadow overflow-y-auto max-h-90 ${
         props.tasks.length === 0 && "hidden"
       }`}
     >
